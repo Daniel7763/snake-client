@@ -16,17 +16,6 @@ const connect = function() {
     //log intials over your snake
     conn.write("Name: DAS");
 
-    // //move up
-    // conn.write("Move: up");
-
-    // //move down
-    // conn.write("Move: down");
-
-    // //move left
-    // conn.write("Move: left");
-
-    // //move right
-    // conn.write("Move: right");
 
   });
 
