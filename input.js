@@ -1,18 +1,16 @@
 let connection;
-
 // setup interface to handle user input from stdin
 const setupInput = (conn) => {
   connection = conn;
-
   const stdin = process.stdin;
   stdin.on("data", handleUserInput);
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
   stdin.resume();
-
   return stdin;
 };
 
+//movement/voicelines
 const handleUserInput = function(key) {
 
   //control + C cancel game
